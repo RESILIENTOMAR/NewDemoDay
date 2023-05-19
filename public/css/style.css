@@ -1,0 +1,306 @@
+body {
+  padding-top: 80px;
+  word-wrap: break-word;
+}
+
+img {
+  height: 200px;
+}
+
+.fa-trash:before {
+  content: '\f00d';
+}
+
+/* //========================INDEX PAGE======================// */
+#indexBackground {
+  background: url("../img/digiart.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+#logoimg {
+  width: 500px;
+  height: 300px;
+  border-radius: 40px;
+}
+
+#mainHead {
+  color: black;
+  font-size: 7rem;
+  text-shadow: 3px 3px 3px rgb(240, 111, 14);
+}
+
+.jumbotron>p {
+  font-size: 4rem;
+}
+
+.jumbotron>a {
+  margin-right: 5px;
+}
+
+.btn-primary {
+  color: #333;
+  font-size: 1.2rem;
+  background-color: rgb(240, 111, 14);
+  border-color: #ccc
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  width: 14%;
+}
+
+/* //================================LOGIN PAGE====================// */
+#loginBackground {
+  background: url('../img/pexels-pixabay-277559.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#loginHeader {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  margin-top: 70px;
+  margin-right: 340px;
+}
+
+#loginForm P {
+  color: white;
+  margin-left: 110px;
+  text-shadow: 2px 2px 2px black;
+}
+
+#loginForm label {
+  color: white;
+  text-shadow: 3px 3px 2px black;
+  font-size: 2rem;
+}
+
+#loginForm input {
+  background: rgba(241, 194, 55, 0.452);
+  color: white;
+  width: 400px;
+  font-size: 2rem;
+}
+
+#loginForm {
+  margin-left: 432px;
+}
+
+
+
+#loginBtn {
+  border: 5px groove silver;
+  margin-left: 150px;
+  height: 60px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#loginLine {
+  width: 400px;
+  margin-left: 0;
+}
+
+/*===================================profile page=====================*/
+#profileBody {
+  background: url('../img/artbackground.jpg');
+  background-size: cover;
+}
+
+#profileBody label {
+  color: gold;
+  text-shadow: 2px 2px 2px black;
+  font-weight: 700;
+}
+
+.page-header a:nth-child(2),
+.page-header a:nth-child(3) {
+  border: 5px groove teal;
+  font-size: 1rem;
+  color: white;
+  background: rgba(32, 161, 161, 0.458);
+  text-shadow: 2px 2px 2px black;
+}
+
+
+#profileBody h2 {
+  font-family: cursive;
+  font-size: 3rem;
+  margin-right: 60%;
+}
+
+#profileBody h1 {
+  color: black;
+  font-size: 3.8rem;
+  text-shadow: 3px 3px 3px white;
+}
+
+#userInfo {
+  width: 100px;
+  height: 110px;
+}
+
+.well {
+  margin-top: 300px;
+  height: 160px;
+  width: 200px;
+}
+
+.col-sm-6 h3 {
+  width: 126px;
+  margin-right: 40px;
+}
+
+ul {
+  border: 8px inset teal;
+  list-style-type: circle;
+}
+
+/*===================SignUP================================*/
+
+#signUp {
+  background: url('../img/oldpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#signUp a {
+  font-size: 4.5rem;
+  font-family: cursive;
+  color: rgb(240, 111, 14);
+  text-shadow: 2px 2px 2px black;
+}
+
+#signUp label {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-size: 1.5rem;
+}
+
+#emailHelp {
+  font-style: italic;
+}
+
+#signUp span {
+  font-family: cursive;
+}
+
+.form-control {
+  display: block;
+  width: 88%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.45rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/*=====================COMMUNITY=============*/
+#communityBody {
+  background: url('../img/nightStreet.jpeg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  margin-top: 0;
+}
+
+#appName {
+  color: rgb(240, 111, 14);
+  font-size: 4rem;
+}
+
+#communityBody img {
+  height: 100%;
+  width: 55%;
+  margin-left: 30%;
+}
+
+.btn-default {
+  text-shadow: 0 0 BLACK;
+}
+
+#communityBody ul {
+  background: rgba(144, 208, 206, 0.276);
+  width: 40%;
+  height: 50%;
+}
+
+#communityBody li {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-size: 2rem;
+
+
+}
+
+#communityBody li::before {
+  color: gold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#communityBody input {
+  display: block;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+
+/*================POSTS=====================*/
+#postPage {
+  height: 100%;
+  background: url('../img/dark-green.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#postPage h1 {
+  color: rgb(240, 111, 14);
+  font-size: 3.8rem;
+  text-shadow: 3px 3px 3px white;
+}
+
+#postPage .img-fluid {
+  max-width: 78%;
+  height: auto;
+}
+
+#postPage h3 {
+  color: rgb(240, 111, 14);
+}
+
+#postPage h2,
+p {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  /* border: 5px groove teal; */
+  /* background: rgba(0, 0, 0, 0.539); */
+}
+
+.placeholder-image {
+  background: url('../img/token.jpeg');
+  width: 15%;
+  height: 15%;
+}
